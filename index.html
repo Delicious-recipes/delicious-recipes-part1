@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- Название страницы -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo"><script>document.write(document.domain)</script></a>
+            <p class="quote"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>limoncello</h1>
+
+            <img src="imaage.jpg" alt="Nature">
+
+            <p class="main__p">Ah, limoncello, sweet nectar of the Gods. I remember first tasting limoncello as a young girl at family dinners. And of course, when you're young and your Italian uncles give you a taste of wine or liqueur, it's usually a healthy sip given under the watchful eye of your Mom.Sipping wine, limoncello, or any other 'cello is as much a cultural thing in an Italian household (or in my case Italian-American household) as eating Italian food, or sharing the same kitchen towel around the dinner table to wipe your mouth (sorry, I know how this sounds), and lingering after dinner over desserts, fruits, nuts, and lively conversation.Drinking limoncello in Italy is a bucket list item for sure. When I first went looking for an Italian limoncello recipe, I found dozens, some with added cream or sugar. But eventually I worked out my own tried and true recipe that I'm sharing with you!
+
+</p>
+
+            <a href="OrderForm.html" class="main__btn">buy</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        var h1 = document.getElementsByTagName("h1")[0].innerHTML;
+        var image = document.getElementsByTagName("img")[0].src;
+        sessionStorage.setItem("h1", h1);
+        sessionStorage.setItem("image", image);
+    </script>
+
+</body>
+</html>
